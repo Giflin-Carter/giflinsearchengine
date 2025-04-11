@@ -1,0 +1,32 @@
+/* GridView.css */
+
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .student-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .attribute-box {
+    margin-bottom: 10px;
+  }
+  
+  .attribute-box h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .attribute-box p {
+    font-size: 1em;
+    color: #555;
+  }
+  
